@@ -16,6 +16,7 @@
     <module>module-1</module>
     <module>module-2</module>
     <module>application</module>
+    <module>module-3</module>
   </modules>
 
   <properties>
@@ -35,6 +36,11 @@
       <dependency>
         <groupId>pl.edu.wszib</groupId>
         <artifactId>module-2</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>pl.edu.wszib</groupId>
+        <artifactId>module-3</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>

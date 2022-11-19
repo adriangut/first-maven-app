@@ -11,4 +11,11 @@
 
     <artifactId>module-2</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>pl.edu.wszib</groupId>
+            <artifactId>module-3</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>
